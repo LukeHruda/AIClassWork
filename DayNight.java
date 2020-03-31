@@ -17,9 +17,9 @@ public class Solution {
             pixels++;
             str = input.next();
             values = str.split(",");
-            red = Integer.parseInt(values[0]);
-            blue = Integer.parseInt(values[1]);
-            green = Integer.parseInt(values[2]);
+            blue = Integer.parseInt(values[0]);
+            green = Integer.parseInt(values[1]);
+            red = Integer.parseInt(values[2]);
             if ((red + blue + green) > 300) {
                 light++;
             }
